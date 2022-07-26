@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+body {
+	width:100%;
+	height:100%;
+	background-image: url('img/main.png');
+	background-repeat: no-repeat;
+	background-position:  top;
+	overflow: hidden x;
+	margin: 0 auto;
+}
+
+.contain {
+	position: absolute;
+	bottom: 0px;
+	margin-bottom: -525px;
+}
+img{
+	margin-left:20px;
+	margin-right:20px;
+}

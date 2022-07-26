@@ -1,0 +1,55 @@
+@charset "EUC-KR";
+body {
+	font-size:100%;
+	height:100vh;
+	weight:100vw;
+	background: url("img/findpwbg.png") no-repeat center/cover;
+	background-color : #fcf8f5;
+	font-family: 'Noto Sans JP', sans-serif;
+	background-attachment: fixed;
+	text-align : center;
+}
+
+.enter {
+	background-color: #d92c45;
+	color: white;
+	border-radius: 30px;
+	border: none;
+	box-shadow: 0px 1px 5px #7e7e7e;
+	
+	width: 17.5vw;
+	height: 8.2vh;
+	margin-top: 20px;
+	font-size: 1vw;
+	font-weight: 555;
+	
+}
+
+.content{
+	background-color: white;
+    width: 26vw;
+    height: 22vh;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin: 65.8vh auto 0 auto;
+
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 555;
+    font-size: 1.3vw;
+    color: #17464c;
+} 
+input[type=text] {
+	background-color:#e6e6e6;/*��以��� 諛�轅��쇰��*/
+	font-family: 'Noto Sans', sans-serif;
+	
+	weight:2.8vw;
+	height:5.5vh;
+	padding: 5vh 0.1vw;
+	border : none;
+	box-sizing: border-box;
+	border-radius: 20px;
+	margin-top: 15px;
+	text-align : center;
+	font-size : 1.9vw;
+	inline-height:0.4em;
+}
